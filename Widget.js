@@ -87,8 +87,8 @@ define([
         
         // Query for the features with the given object ID
         this.casesFeatureLayer.queryFeatures(query, lang.hitch(this, function(featureSet) {
-          console.log(featureSet);
-          console.log(this.attachmentUrl);
+          // console.log(featureSet);
+          // console.log(this.attachmentUrl);
           
           var feature = featureSet.features[0];
 
